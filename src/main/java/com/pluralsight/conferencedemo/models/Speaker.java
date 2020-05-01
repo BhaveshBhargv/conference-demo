@@ -2,7 +2,6 @@ package com.pluralsight.conferencedemo.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import jdk.internal.instrumentation.TypeMapping;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
