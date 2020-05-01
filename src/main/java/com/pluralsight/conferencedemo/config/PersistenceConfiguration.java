@@ -10,11 +10,11 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration {
 
-    @Bean
+   /* heroku deployment @Bean
     public DataSource dataSource() {
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:postgresql://localhost:5432/conference_app");
         System.out.println("nitesh code");
         return builder.build();
-    }
+    }*/
 }
